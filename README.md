@@ -12,4 +12,4 @@ Before using it, you should control the paths of the different files, especially
 
 This script is quite basic, so any improving proposal will be welcome. It can also be used with any other reverse-proxy, taking care of the destination path.
 
-You can also change the list of the public blocklists you want aggregated.
+You can also change the list of the public blocklists you want aggregated in url.txt.
