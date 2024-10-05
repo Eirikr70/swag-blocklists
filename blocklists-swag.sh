@@ -16,7 +16,7 @@ DEST_FILE="/tmp/blocklists/blocklists.txt"
 
 SORTED_FILE="/tmp/blocklists/blocklists_sorted.txt"
 
-SWAG_BLOCKLIST="/home/eric/swag/config/nginx/blockips.conf"
+SWAG_BLOCKLIST=$1
 
 # initialise temp file
 echo "" >"$TMP_FILE"
