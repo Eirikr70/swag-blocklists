@@ -7,3 +7,9 @@ This utility is made available as is. It is not guaranteed and is not supported 
 It is based in particular on previous work by wallyhall : https://github.com/wallyhall/spamhaus-drop
 
 Read it before you import it.
+
+Before using it, you should control the paths of the different files, especially the variable SWAG_FILE.
+
+This script is quite basic, so any improving proposal will be welcome. It can also be used with any other reverse-proxy, taking care of the destination path.
+
+You can also change the list of the public blocklists you want aggregated.
