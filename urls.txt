@@ -1,6 +1,3 @@
-https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=1.1.1.1
-http://www.maxmind.com/en/anonymous_proxies
-https://www.maxmind.com/en/high-risk-ip-sample-list
 https://rules.emergingthreats.net/blockrules/compromised-ips.txt
 https://www.spamhaus.org/drop/drop.txt
 http://cinsscore.com/list/ci-badguys.txt
