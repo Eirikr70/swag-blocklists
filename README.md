@@ -13,3 +13,13 @@ Before using it, you should control the paths of the different files, especially
 This script is quite basic, so any improving proposal will be welcome. It can also be used with any other reverse-proxy, taking care of the destination path.
 
 You can also change the list of the public blocklists you want aggregated in url.txt.
+
+# Usage
+
+Install the `blocklists-swag.sh` file and, when in the current directory, execute
+
+```
+(sudo) ./blocklist-swag.sh /path/of/the/swag/or/nginx/blockips.conf
+```
+
+You can install a cron job to periodically run it.
