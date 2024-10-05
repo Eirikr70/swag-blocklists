@@ -19,7 +19,7 @@ SORTED_FILE="/tmp/blocklists/blocklists_sorted.txt"
 SWAG_BLOCKLIST=$1
 
 # initialise temp file
-echo "" >"$TMP_FILE"
+>"$TMP_FILE"
 
 cat $URLS | while read URL ; do
 	echo "Fetching '$URL' ..." >>"$LOG_FILE"
@@ -29,7 +29,7 @@ done
 # create blocklist
 # empty blocklist
 
-echo "" >"$DEST_FILE"
+>"$DEST_FILE"
 
 for IP in $( cat "$TMP_FILE" | grep -Po '(?:\d{1,3}\.){3}\d{1,3}(?:/\d{1,2})?' | cut -d' ' -f1 ); do
 
