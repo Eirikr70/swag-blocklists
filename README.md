@@ -20,6 +20,6 @@ Install the `blocklists-swag.sh` and the `urls.txt` files and, when in the curre
 (sudo) ./blocklist-swag.sh /path/of/the/swag/or/nginx/blockips.conf
 ```
 
-You can check the logs in the `LOG_FILE`.
+You can check the logs in `blocklists-swag.log`.
 
 You can install a cron job to periodically run it.
