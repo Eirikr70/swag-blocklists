@@ -12,11 +12,9 @@ date >"$LOG_FILE"
 # list of known spammers
 URLS="./urls.txt"
 
-TMP_FILE=$(mktemp dumpXXXX)
+TMP_FILE=$(mktemp)
 
-DEST_FILE=$(mktemp blockXXXX)
-
-SORTED_FILE=$(mktemp sortXXXX)
+DEST_FILE=$(mktemp)
 
 SWAG_BLOCKLIST=$1
 
