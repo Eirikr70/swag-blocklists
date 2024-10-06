@@ -18,8 +18,6 @@ SORTED_FILE=$(mktemp sortXXXX)
 
 SWAG_BLOCKLIST=$1
 
-# SWAG_BLOCKLIST="/home/eric/swag/config/nginx/blockips.conf"
-
 # dump blocklists
 
 cat $URLS | while read URL ; do
