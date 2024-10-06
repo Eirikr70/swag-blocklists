@@ -22,7 +22,7 @@ SWAG_BLOCKLIST=$1
 >"$TMP_FILE"
 
 cat $URLS | while read URL ; do
-	echo "Fetching '$URL' ..." >>"$LOG_FILE"
+	echo "Fetching '$URL' ..." | tee -a "$LOG_FILE"
  	curl -Ss "$URL" | grep -e "" | tee -a "$TMP_FILE" > /dev/null
 done
 
