@@ -2,7 +2,7 @@
 
 set -e
 
-cd "$(dirname "$0")";
+cd "$(dirname "$0")"
 
 LOG_FILE="./blocklists-swag.log"
 
