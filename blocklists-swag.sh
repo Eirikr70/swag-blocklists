@@ -10,11 +10,11 @@ date >"$LOG_FILE"
 # list of known spammers
 URLS="~/urls.txt"
 
-TMP_FILE="/tmp/blocklists/tmp.txt"
+TMP_FILE="/tmp/tmp.txt"
 
-DEST_FILE="/tmp/blocklists/blocklists.txt"
+DEST_FILE="/tmp/blocklists.txt"
 
-SORTED_FILE="/tmp/blocklists/blocklists_sorted.txt"
+SORTED_FILE="/tmp/blocklists_sorted.txt"
 
 SWAG_BLOCKLIST=$1
 
