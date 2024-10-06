@@ -44,3 +44,5 @@ sort -u "$DEST_FILE" >"$SORTED_FILE"
 # move list to SWAG blocklist
 
 cp "$SORTED_FILE" "$SWAG_BLOCKLIST"
+
+echo "IP/ranges count: 'wc -l $SWAG_BLOCKLIST'" | tee -a "$LOG_FILE"
