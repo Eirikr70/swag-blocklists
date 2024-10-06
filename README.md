@@ -8,7 +8,7 @@ It is based in particular on previous work by wallyhall : https://github.com/wal
 
 Read it before you import it.
 
-Before using it, you should control the paths of the different files.
+Before using it, you should control the paths to the different files.
 
 This script is quite basic, so any improving proposal will be welcome. It can also be used with any other reverse-proxy, taking care of the destination path.
 
