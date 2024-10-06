@@ -8,8 +8,6 @@ It is based in particular on previous work by wallyhall, extremely simplified : 
 
 Read it before you import it.
 
-Before using it, you should control the paths to the different files.
-
 This script is quite basic, so any improvement proposal will be welcome. It can also be used with any other reverse-proxy, taking care of the destination path.
 
 You can also change the list of the public blocklists you want aggregated in url.txt.
