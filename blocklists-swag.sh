@@ -16,6 +16,8 @@ TMP_FILE=$(mktemp)
 
 DEST_FILE=$(mktemp)
 
+SORTED_FILE=$(mktemp)
+
 SWAG_BLOCKLIST=$1
 
 # dump blocklists
