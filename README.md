@@ -1,14 +1,12 @@
 # swag-blocklists
 Blocklists aggregator for linuxserver/docker-swag
 
-This little script is designed to aggregate multiple public blocklists and feed a blacklist for linuxserver/docker-swag.
-This utility is made available as is. It is not guaranteed and is not supported by the linuxserver.io team. Feel free to hack it to improve it, in particular to make it more secure. All suggestions for improvement are welcome.
+This little script is designed to aggregate multiple public blocklists and feed a blacklist for linuxserver/docker-swag. It can also be used with any other reverse-proxy, taking care of the destination path.
+This utility is made available as is. It is not guaranteed nor supported by the linuxserver.io team. Feel free to hack it to improve it, in particular to make it more secure. All suggestions for improvement are welcome.
 
 It is based in particular on previous work by wallyhall, extremely simplified : https://github.com/wallyhall/spamhaus-drop
 
 Read it before you import it.
-
-This script is quite basic, so any improvement proposal will be welcome. It can also be used with any other reverse-proxy, taking care of the destination path.
 
 You can also change the list of the public blocklists you want aggregated in `urls.txt`.
 
