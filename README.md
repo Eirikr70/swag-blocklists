@@ -10,7 +10,7 @@ Read it before you import it.
 
 This script is quite basic, so any improvement proposal will be welcome. It can also be used with any other reverse-proxy, taking care of the destination path.
 
-You can also change the list of the public blocklists you want aggregated in url.txt.
+You can also change the list of the public blocklists you want aggregated in `urls.txt`.
 
 # Usage
 
