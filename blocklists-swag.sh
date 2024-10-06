@@ -2,13 +2,13 @@
 
 set -e
 
-LOG_FILE="/home/eric/swag/blocklists/blocklists-swag.log"
+LOG_FILE="./blocklists-swag.log"
 
 # Initiate log file
 date >"$LOG_FILE"
 
 # list of known spammers
-URLS="/home/eric/swag/blocklists/urls.txt"
+URLS="./urls.txt"
 
 TMP_FILE=$(mktemp dumpXXXX)
 
